@@ -14,6 +14,20 @@ const obraz =
     { grafika: "obraz8.png" , nazwa: "abstrakcja8", opis: "costam8", cena: '10000 zł'}
 ]
 
+/**
+ *******************************************************
+
+ nazwa funkcji:  Wypisanie obrazu
+
+ parametry wejściowe:  source, nazwa, opis, cena
+ wartość zwracana:     Zwraca blok, z wartościami opisanymi
+
+ informacje:           Zwraca nigdzie
+
+ autor:                Miłosz Todys
+
+ ****************************************************/
+
 const App = () => (
     <div className="App">
 

@@ -1,7 +1,23 @@
 import React from "react"
 import  "./obraz.css"
 
-const Obraz = (props) =>
+/**
+*******************************************************
+
+nazwa funkcji:  <zwracania wartości do funkcji mapy>
+
+    parametry wejściowe:  Zdjęcie,Nazwa Zdjęcia, Opis zdjęcia, oraz Cena zdjęcia, - Zdjęcie, stringi
+
+    wartość zwracana:     Zwraca blok, z wartościami opisanymi
+
+    informacje:           Zwraca do App.js
+
+    autor:                <Miłosz Todys>
+
+    ****************************************************/
+
+
+    const Obraz = (props) =>
 
     (
         <div className="Obraz">
